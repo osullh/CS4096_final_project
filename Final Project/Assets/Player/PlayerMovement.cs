@@ -35,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
 
     void MovePlayer() // Function to Move
     {
-        // Debug.Log(moveAction.ReadValue<Vector3>()); // Read the vector two values from the action map
+        // Debug.Log(moveAction.ReadValue<Vector3>()); // Read and Output the vector two values from the action map
 
         Vector3 val = moveAction.ReadValue<Vector2>(); // Read the Value to a Variable
 

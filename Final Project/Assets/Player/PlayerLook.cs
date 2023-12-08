@@ -39,6 +39,8 @@ public class PlayerLook : MonoBehaviour
     {
         if (Input.GetMouseButton(0)) // Checks to see if Left Button is Clicked
         {
+            // Debug.Log("Left Button Has Been Clicked - Move Camera"); // DEBUG STATEMENT
+
             // Read the Delta From the Look Action
             Vector3 mouseDelta = lookAction.ReadValue<Vector2>();
 

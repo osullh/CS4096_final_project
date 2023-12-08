@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - PlayerJump
+    - PlayerLook
     - PlayerMovement
     Cinemachine.dll:
     - Cinemachine.CinemachineBrain
@@ -9,8 +10,6 @@ ScriptsOnlyBuild:
     - Cinemachine.CinemachinePipeline
     - Cinemachine.CinemachineVirtualCamera
     Unity.InputSystem.dll:
-    - UnityEngine.InputSystem.Editor.InputActionAssetEditor
-    - UnityEngine.InputSystem.Editor.InputActionImporterEditor
     - UnityEngine.InputSystem.InputActionAsset
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
@@ -84,13 +83,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3968}
     - Class: 114
-      Script: {instanceID: 4492}
+      Script: {instanceID: 4418}
     - Class: 114
-      Script: {instanceID: 6110}
+      Script: {instanceID: 4494}
     - Class: 114
-      Script: {instanceID: 8786}
+      Script: {instanceID: 4778}
     - Class: 114
-      Script: {instanceID: 24214}
+      Script: {instanceID: 6114}
+    - Class: 114
+      Script: {instanceID: 8184}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -660,6 +661,12 @@ ScriptsOnlyBuild:
     className: RectMask2D
   - hash:
       serializedVersion: 2
+      Hash: 42b183f5fcba632f7ea14990cbde25ea
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerLook
+  - hash:
+      serializedVersion: 2
       Hash: dd7365d011fb5975838f523fc9b1668a
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -718,6 +725,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnCancelMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: c13adf70ec9777b05527d1b32edc4c16
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerMovement
   - hash:
       serializedVersion: 2
       Hash: 0a31b59c7e9de30f8e19cc11f48ae4a9
@@ -1314,6 +1327,12 @@ ScriptsOnlyBuild:
     className: UnityOnMouseOverMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 763b88e63e14a52dfa15da2ba896593f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerJump
+  - hash:
+      serializedVersion: 2
       Hash: f6831ac80ec81c5d5b370c0ed0fee997
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1396,18 +1415,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: c13adf70ec9777b05527d1b32edc4c16
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: PlayerMovement
-  - hash:
-      serializedVersion: 2
-      Hash: cbefa025e5f64c97f1399f5e1dfd8cbd
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: PlayerJump
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

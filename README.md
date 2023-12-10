@@ -16,4 +16,5 @@ Github Repository for the CS4096 Final Project - Murder in the Mansion
 
 ### Additional Unity Assets Used:
  - AllSky Free - 10 Sky / Skybox Set
+ - Battle Knife
 

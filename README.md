@@ -8,6 +8,8 @@ Github Repository for the CS4096 Final Project - Murder in the Mansion
    - Right: D key
    - Backwards: S key
    - Jump: Double Click Space Bar
+   - Throw Item: Q key
+   - Pick Up Item: E Key
 
 ### Package Manager Installs:
  - Input System

@@ -19,4 +19,5 @@ Github Repository for the CS4096 Final Project - Murder in the Mansion
  - Battle Knife: Clue Props
  - Props 3D: Clue Props
  - Books: Clue Props
+ - Clipboard: Clue Props
 

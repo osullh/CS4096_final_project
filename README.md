@@ -15,6 +15,7 @@ Github Repository for the CS4096 Final Project - Murder in the Mansion
  - AI Navigation: High-level NavMesh components
 
 ### Additional Unity Assets Used:
- - AllSky Free - 10 Sky / Skybox Set
- - Battle Knife
+ - AllSky Free - 10 Sky / Skybox Set: Game Background
+ - Battle Knife: Clue Props
+ - Props 3D: Clue Props
 

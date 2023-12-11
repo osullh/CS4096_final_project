@@ -11,12 +11,13 @@ Github Repository for the CS4096 Final Project - Murder in the Mansion
  - #### Clues
    - Pick Up Item: Q Key
 
-  <br>
+<br>
 
   ### How to Run Standalone Version of your Artefact:
   1. .
 
-     
+
+<br>
 
   ### How to Install and Run Game Through Unity:
   1. Download the Zip File From Github.

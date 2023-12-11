@@ -8,4 +8,5 @@ Github Repository for the CS4096 Final Project - Murder in the Mansion
    - Right: D key
    - Backwards: S key
    - Jump: Space Bar
+ - #### Clues
    - Pick Up Item: Q Key

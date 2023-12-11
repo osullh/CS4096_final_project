@@ -10,3 +10,7 @@ Github Repository for the CS4096 Final Project - Murder in the Mansion
    - Jump: Space Bar
  - #### Clues
    - Pick Up Item: Q Key
+  
+
+  ### How to Install and Run Game Through Unity:
+  1. 

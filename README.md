@@ -7,18 +7,5 @@ Github Repository for the CS4096 Final Project - Murder in the Mansion
    - Left: A key
    - Right: D key
    - Backwards: S key
-   - Jump: Double Click Space Bar
+   - Jump: Space Bar
    - Pick Up Item: Q Key
-
-### Package Manager Installs:
- - Input System
- - Cinemachine
- - AI Navigation: High-level NavMesh components
-
-### Additional Unity Assets Used:
- - AllSky Free - 10 Sky / Skybox Set: Game Background
- - Battle Knife: Clue Props
- - Props 3D: Clue Props
- - Books: Clue Props
- - Clipboard: Clue Props
-

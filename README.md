@@ -13,6 +13,11 @@ Github Repository for the CS4096 Final Project - Murder in the Mansion
 
   <br>
 
+  ### How to Run Standalone Version of your Artefact:
+  1. .
+
+     
+
   ### How to Install and Run Game Through Unity:
   1. Download the Zip File From Github.
   2. Unzip the file and save it (remember the location).

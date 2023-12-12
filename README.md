@@ -18,7 +18,7 @@ Github Repository for the CS4096 Final Project - Murder in the Mansion
   ### How to Run Standalone Version of the Artefact:
   1. Download the EXE File Zip from Github.
   2. Unizip the files.
-  3. CLick on the EXE File and the game will run.
+  3. Click on the EXE File and the game will run.
 
 
 <br>

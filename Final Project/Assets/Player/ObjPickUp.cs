@@ -45,13 +45,26 @@ public class ObjPickUp : MonoBehaviour
             // If Player Holds Q, the object will be picked up
             if (Input.GetKeyDown(KeyCode.Q)) 
             {
-                Debug.Log("Pressed Q Key"); // DEBUG STATEMENT
+                // Debug.Log("Pressed Q Key"); // DEBUG STATEMENT
                 objTransform.parent = cameraTrans;
                 objRigidBody.useGravity = false;
                 pickedup = true;
+                // If Bankrupcy Note - Output Message
+                if (objTransform.gameObject.name == "Bankruptcy_Note")
+                {
+                    Debug.Log("WHO HAS THE NUMBER THREE"); // DEBUG STATEMENT
+                }
             }
-            // If Player Lets Go of Q, the object will be dropped
-            if (Input.GetKeyUp(KeyCode.Q))
+        } 
+        
+    }
+}
+
+
+
+
+/*         // If Player Lets Go of Q, the object will be dropped
+           if (Input.GetKeyUp(KeyCode.Q))
             {
                 Debug.Log("Let Go of Q Key"); // DEBUG STATEMENT
                 objTransform.parent = null;
@@ -69,8 +82,5 @@ public class ObjPickUp : MonoBehaviour
                     objRigidBody.velocity = cameraTrans.forward * throwAmount * Time.deltaTime;
                     pickedup = false;
                 }
-            }
-        }
-        
-    }
-}
+            } 
+*/

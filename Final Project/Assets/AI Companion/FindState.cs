@@ -21,7 +21,7 @@ public class FindState : State_Controller
     // Implementing Abstract Class
     public override State_Controller RunStateCurrent()
     {
-        Debug.Log("Companion AI Current State - Find"); // DEBUG Statement
+        // Debug.Log("Companion AI Current State - Find"); // DEBUG Statement
 
         distance_away = AIcompanion.remainingDistance;
         //Debug.Log(distance_away); // DEBUG Statement
@@ -29,7 +29,7 @@ public class FindState : State_Controller
         if ( timer < time_for_clue )
         {
             // Don't move once clue is found
-            Debug.Log("Same Distance - Iterate Timer"); // DEBUG Statement
+            // Debug.Log("Same Distance - Iterate Timer"); // DEBUG Statement
             timer = timer + 1;
             return this;
         }

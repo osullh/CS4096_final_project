@@ -26,7 +26,7 @@ public class IdleState : State_Controller
     // Implementing Abstract Class
     public override State_Controller RunStateCurrent()
     {
-        Debug.Log("Companion AI Current State - Idle"); // DEBUG Statement
+        // Debug.Log("Companion AI Current State - Idle"); // DEBUG Statement
 
         // AI companion's destination will be equal to the player (detective's) current position - following behavior
         dest_companion = player.position;
